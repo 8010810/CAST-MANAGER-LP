@@ -114,9 +114,6 @@ nav {
 @keyframes scrollLine { 0%{left:-100%} 100%{left:100%} }
 .scroll-text { font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-dim); }
 
-.hero-stat { position:absolute;right:48px;bottom:48px;text-align:right;opacity:0;animation:fadeUp 0.8s ease 1s forwards; }
-.hero-stat-num { font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:300;color:var(--gold);line-height:1; }
-.hero-stat-label { font-size:10px;letter-spacing:3px;color:var(--gray);text-transform:uppercase; }
 
 /* Divider */
 .divider { width:100%;height:1px;background:linear-gradient(to right,transparent,var(--gold-dim),transparent); }
@@ -250,7 +247,6 @@ footer { border-top:1px solid rgba(201,168,76,0.1);padding:48px;display:flex;jus
   nav { padding:18px 12px; }
   .nav-links { display:none; }
   .hero { padding:100px 24px 80px; }
-  .hero-stat { display:none; }
   .section { padding:80px 24px; }
   .features-grid { grid-template-columns:1fr; }
   .stats-inner { grid-template-columns:repeat(2,1fr); }
@@ -299,10 +295,6 @@ footer { border-top:1px solid rgba(201,168,76,0.1);padding:48px;display:flex;jus
   <div class="hero-scroll">
     <div class="scroll-line"></div>
     <span class="scroll-text">Scroll</span>
-  </div>
-  <div class="hero-stat">
-    <div class="hero-stat-num">iPad</div>
-    <div class="hero-stat-label">最適化デザイン</div>
   </div>
 </section>
 
