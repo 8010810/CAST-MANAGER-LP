@@ -265,6 +265,12 @@ footer { border-top:1px solid rgba(201,168,76,0.1);padding:48px;display:flex;jus
   body { cursor:auto; }
   .cursor,.cursor-ring { display:none; }
 }
+
+/* タッチ端末(iPad含む)では幅に関わらず独自カーソルを無効化 */
+@media (hover:none), (pointer:coarse) {
+  body { cursor:auto; }
+  .cursor,.cursor-ring { display:none; }
+}
 </style>
 </head>
 <body>
