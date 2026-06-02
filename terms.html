@@ -16,11 +16,6 @@ body { background:var(--black) !important; color:var(--white); font-family:'Noto
 .logo-diamond { width:28px;height:28px;flex-shrink:0; }
 .logo-text { font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;letter-spacing:8px;color:var(--gold);text-transform:uppercase; }
 nav { position:fixed;top:0;left:0;right:0;z-index:100;padding:22px 48px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(to bottom, rgba(8,8,16,0.97) 0%, rgba(8,8,16,0.0) 100%);backdrop-filter:blur(2px); }
-.nav-links { display:flex;gap:40px;list-style:none; }
-.nav-links a { color:var(--gray);text-decoration:none;font-size:11px;letter-spacing:3px;text-transform:uppercase;transition:color 0.3s; }
-.nav-links a:hover { color:var(--gold); }
-.nav-cta { background:transparent;border:1px solid var(--gold-dim);color:var(--gold);padding:10px 16px;font-family:'Noto Sans JP',sans-serif;font-size:11px;letter-spacing:1px;cursor:pointer;transition:all 0.3s;white-space:nowrap; }
-.nav-cta:hover { background:var(--gold);color:var(--black); }
 .container { max-width:800px;margin:0 auto;padding:120px 48px 120px; }
 .page-label { font-size:10px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:16px; }
 .page-title { font-family:'Cormorant Garamond',serif;font-size:clamp(32px,5vw,56px);font-weight:300;margin-bottom:12px; }
@@ -36,7 +31,6 @@ footer { border-top:1px solid rgba(201,168,76,0.1);padding:40px 48px;text-align:
 .footer-copy { font-size:11px;color:#333355; }
 @media (max-width:768px) {
   nav { padding:18px 12px; }
-  .nav-links { display:none; }
   .logo-text { font-size:20px;letter-spacing:8px; }
   .logo-diamond { width:28px;height:28px; }
   .logo-mark { gap:14px; }
@@ -54,12 +48,6 @@ footer { border-top:1px solid rgba(201,168,76,0.1);padding:40px 48px;text-align:
     </svg>
     <span class="logo-text">CAST MANAGER</span>
   </a>
-  <ul class="nav-links">
-    <li><a href="index.html#features">機能</a></li>
-    <li><a href="index.html#pricing">料金</a></li>
-    <li><a href="index.html#contact">お問い合わせ</a></li>
-  </ul>
-  <button class="nav-cta" onclick="window.open('https://cast-manager-seven.vercel.app','_blank')">無料で始める</button>
 </nav>
 
 <div class="container">
