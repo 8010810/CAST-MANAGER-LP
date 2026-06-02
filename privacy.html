@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー — CAST MANAGER</title>
+<meta name="theme-color" content="#0A0A1E">
+<style>html,body{background:#0A0A1E !important}</style>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+:root { --gold:#C9A84C;--gold2:#E2C97A;--gold-dim:#7A5E28;--black:#0A0A1E;--dark:#0D0D24;--dark2:#11112C;--white:#F2EEE0;--gray:#8880AA; }
+html { background:#0A0A1E !important; }
+body { background:var(--black) !important; color:var(--white); font-family:'Noto Sans JP',sans-serif; font-weight:300; overflow-x:hidden; }
+.logo-mark { display:inline-flex;align-items:center;gap:14px;text-decoration:none; }
+.logo-diamond { width:28px;height:28px;flex-shrink:0; }
+.logo-text { font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:400;letter-spacing:8px;color:var(--gold);text-transform:uppercase; }
+nav { position:fixed;top:0;left:0;right:0;z-index:100;padding:22px 48px;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(to bottom, rgba(8,8,16,0.97) 0%, rgba(8,8,16,0.0) 100%);backdrop-filter:blur(2px); }
+.nav-links { display:flex;gap:40px;list-style:none; }
+.nav-links a { color:var(--gray);text-decoration:none;font-size:11px;letter-spacing:3px;text-transform:uppercase;transition:color 0.3s; }
+.nav-links a:hover { color:var(--gold); }
+.nav-cta { background:transparent;border:1px solid var(--gold-dim);color:var(--gold);padding:10px 16px;font-family:'Noto Sans JP',sans-serif;font-size:11px;letter-spacing:1px;cursor:pointer;transition:all 0.3s;white-space:nowrap; }
+.nav-cta:hover { background:var(--gold);color:var(--black); }
+.container { max-width:800px;margin:0 auto;padding:120px 48px 120px; }
+.page-label { font-size:10px;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:16px; }
+.page-title { font-family:'Cormorant Garamond',serif;font-size:clamp(32px,5vw,56px);font-weight:300;margin-bottom:12px; }
+.page-date { font-size:12px;color:var(--gray);margin-bottom:32px;padding-bottom:32px;border-bottom:1px solid rgba(201,168,76,0.15); }
+.intro { font-size:14px;color:#AAA9CC;margin-bottom:48px;line-height:2; }
+.article { margin-bottom:48px; }
+.article-title { font-size:15px;font-weight:500;color:var(--gold);letter-spacing:1px;margin-bottom:16px;padding-left:16px;border-left:2px solid var(--gold-dim); }
+.article-body { font-size:14px;color:#AAA9CC;line-height:2; }
+.article-body ul { list-style:none;padding:0;margin-top:12px; }
+.article-body ul li { padding-left:16px;margin-bottom:8px;position:relative; }
+.article-body ul li::before { content:'・';color:var(--gold-dim);position:absolute;left:0; }
+.note { margin-top:16px;padding:16px 20px;background:rgba(201,168,76,0.05);border:1px solid rgba(201,168,76,0.15);border-radius:4px;font-size:13px;color:var(--gray); }
+footer { border-top:1px solid rgba(201,168,76,0.1);padding:40px 48px;text-align:center; }
+.footer-logo { font-family:'Cormorant Garamond',serif;font-size:14px;letter-spacing:5px;color:var(--gold-dim);margin-bottom:8px; }
+.footer-copy { font-size:11px;color:#333355; }
+@media (max-width:768px) {
+  nav { padding:18px 12px; }
+  .nav-links { display:none; }
+  .logo-text { font-size:20px;letter-spacing:8px; }
+  .logo-diamond { width:28px;height:28px; }
+  .logo-mark { gap:14px; }
+  .container { padding:100px 20px 80px; }
+  footer { padding:32px 20px; }
+}
+</style>
+</head>
+<body>
+<nav>
+  <a class="logo-mark" href="index.html">
+    <svg class="logo-diamond" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polygon points="14,1 27,14 14,27 1,14" fill="none" stroke="#C9A84C" stroke-width="1.2"/>
+      <polygon points="14,5 23,14 14,23 5,14" fill="#2A2418" stroke="#C9A84C" stroke-width="0.8"/>
+    </svg>
+    <span class="logo-text">CAST MANAGER</span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html#features">機能</a></li>
+    <li><a href="index.html#pricing">料金</a></li>
+    <li><a href="index.html#contact">お問い合わせ</a></li>
+  </ul>
+  <button class="nav-cta" onclick="window.open('https://cast-manager-seven.vercel.app','_blank')">無料で始める</button>
+</nav>
+
+<div class="container">
+  <p class="page-label">Legal</p>
+  <h1 class="page-title">プライバシーポリシー</h1>
+  <p class="page-date">制定日：2026年5月29日</p>
+  <p class="intro">田熊 大翔（以下「運営者」）は、CAST MANAGERおよびCAST MANAGER mini（以下「本サービス」）における個人情報の取扱いについて、以下の通り定めます。</p>
+
+  <div class="article"><div class="article-title">取得する情報</div><div class="article-body"><ul><li>Googleアカウント情報（メールアドレス、表示名）</li><li>利用者が入力したキャスト情報・売上記録・顧客記録・シフト情報</li><li>サービスの利用状況・操作ログ</li></ul></div></div>
+  <div class="article"><div class="article-title">利用目的</div><div class="article-body"><ul><li>本サービスの提供・運営</li><li>サービス改善のための分析</li><li>お問い合わせへの対応</li><li>利用料金の請求（Stripe経由）</li></ul></div></div>
+  <div class="article"><div class="article-title">第三者提供</div><div class="article-body">取得した情報は、以下の場合を除き第三者に提供しません。<ul><li>法令に基づく場合</li><li>利用者の同意がある場合</li></ul><div class="note">※ サービス運営のためFirebase（Google）・Stripe・Anthropicにデータを送信します。各社のプライバシーポリシーが適用されます。<br><br>※ AI分析機能の利用時、キャスト情報・売上データ・顧客データ等がAnthropicのAPIに送信されます。送信データにはキャスト名・売上数値・来店記録等が含まれます。</div></div></div>
+  <div class="article"><div class="article-title">データの保管・削除</div><div class="article-body">データはFirebase（Google Cloud）上に保存されます。アカウント削除を行うと、登録データは削除されます。</div></div>
+  <div class="article"><div class="article-title">お問い合わせ</div><div class="article-body"><a href="mailto:official.castmanager@gmail.com" style="color:var(--gold);">official.castmanager@gmail.com</a></div></div>
+</div>
+
+<footer>
+  <div class="footer-logo">CAST MANAGER</div>
+  <p class="footer-copy">© 2026 CAST MANAGER. All rights reserved.</p>
+</footer>
+</body>
+</html>
