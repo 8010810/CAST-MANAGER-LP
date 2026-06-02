@@ -59,9 +59,6 @@ nav {
   background:linear-gradient(to bottom, rgba(8,8,16,0.97) 0%, rgba(8,8,16,0.0) 100%);
   backdrop-filter: blur(2px);
 }
-.nav-links { display:flex;gap:40px;list-style:none; }
-.nav-links a { color:var(--gray);text-decoration:none;font-size:11px;letter-spacing:3px;text-transform:uppercase;transition:color 0.3s; }
-.nav-links a:hover { color:var(--gold); }
 .nav-cta { background:transparent;border:1px solid var(--gold-dim);color:var(--gold);padding:10px 16px;font-family:'Noto Sans JP',sans-serif;font-size:11px;letter-spacing:1px;cursor:pointer;transition:all 0.3s;white-space:nowrap; }
 .nav-cta:hover { background:var(--gold);color:var(--black); }
 
@@ -245,7 +242,6 @@ footer { border-top:1px solid rgba(201,168,76,0.1);padding:48px;display:flex;jus
   .modal-box { max-height:85vh; }
   .modal-tabs { padding:0 16px;padding-top:20px; }
   nav { padding:18px 12px; }
-  .nav-links { display:none; }
   .hero { padding:100px 24px 80px; }
   .section { padding:80px 24px; }
   .features-grid { grid-template-columns:1fr; }
@@ -271,11 +267,6 @@ footer { border-top:1px solid rgba(201,168,76,0.1);padding:48px;display:flex;jus
     </svg>
     <span class="logo-text">CAST MANAGER</span>
   </a>
-  <ul class="nav-links">
-    <li><a href="#features">機能</a></li>
-    <li><a href="#pricing">料金</a></li>
-    <li><a href="#contact">お問い合わせ</a></li>
-  </ul>
   <button class="nav-cta" onclick="window.open('https://cast-manager-seven.vercel.app','_blank')">無料で始める</button>
 </nav>
 
